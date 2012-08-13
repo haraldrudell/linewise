@@ -20,7 +20,7 @@ The linewise module splits a stream line-by-line with moderation of the input.
 var linewise = require('linewise')
 var fs = require('fs')
 
-var inStream = fs.createReadStream('/home/file.txt')
+var inStream = fs.createReadStream('/home/hugefile.log', {encoding:'utf-8'})
 var parsedStream = linewise.getPerLineBuffer()
 parsedStream.on('data', line)
 parsedStream.on('end', end)
