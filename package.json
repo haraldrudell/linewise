@@ -1,0 +1,29 @@
+{
+	"name": "linewise",
+	"description": "Splits a stream into lines",
+	"author": "Harald Rudell <harald@allgoodapps.com> (http://www.haraldrudell.com)",
+	"keywords": ["stream", "log", "line", "newline", "parse"],
+	"version": "0.0.1",
+	"contributors": [
+		{
+			"name": "Harald Rudell",
+			"email": "harald@allgoodapps.com",
+			"web": "http://www.haraldrudell.com"
+		}
+	],
+	"devDependencies": {
+		"uglify-js": "",
+		"nodeunit": "",
+		"greatjson": ""
+	},
+	"dependencies": {
+	},
+	"repository" : {
+		"type" : "git",
+		"url": "git+ssh://gt:logscan"
+	},
+	"main": "lib/linewise",
+	"scripts": {
+		"test": "nodeunit test"
+	}
+}
