@@ -3,7 +3,7 @@
 	"description": "Splits a stream into lines",
 	"author": "Harald Rudell <harald@allgoodapps.com> (http://www.haraldrudell.com)",
 	"keywords": ["stream", "log", "line", "newline", "parse"],
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"contributors": [
 		{
 			"name": "Harald Rudell",
@@ -20,7 +20,7 @@
 	},
 	"repository" : {
 		"type" : "git",
-		"url": "git+ssh://gt:logscan"
+		"url": "https://haraldrudell@github.com/haraldrudell/linewise.git"
 	},
 	"main": "lib/linewise",
 	"scripts": {
